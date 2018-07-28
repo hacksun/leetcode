@@ -52,7 +52,7 @@ public class two_sum_1{
 //the third method, https://www.cnblogs.com/grandyang/p/4130379.html
 class Solution{
 	public int[] twoSum(int[] nums,int target){
-		HashMap<Integer,Integer> m = new HashMap<Integer,Integer>;
+		HashMap<Integer,Integer> m = new HashMap<Integer,Integer>;//upcasting？right？maybe wrong
 		int[] res = new int[2];
 		for(int i = 0;i<nums.length;++i){
 			m.put(nums[i],i);
